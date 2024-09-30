@@ -1,0 +1,159 @@
+m: cannot remove 'gRASPA.so': No such file or directory
+"mc_cbcfc.h", line 222: warning: variable "MoveType" was set but never used [set_but_not_used]
+    int    MoveType;
+           ^
+
+Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+
+"mc_swap_moves.h", line 299: warning: variable "CBMCType" was declared but never referenced [declared_but_not_referenced]
+    int CBMCType = CBMC_DELETION; //Deletion//
+        ^
+
+"mc_box.h", line 223: warning: variable "Host_threads" was declared but never referenced [declared_but_not_referenced]
+        size_t Host_threads  = 0; //In this move, there should be NO Framework Atom (Framework (component 0) should be an empty box)//
+               ^
+
+"print_statistics.cuh", line 504: warning: variable "NumberOfAdsorbateComponent" was declared but never referenced [declared_but_not_referenced]
+    size_t NumberOfAdsorbateComponent = SystemComponents.NComponents.x - SystemComponents.NComponents.y;
+           ^
+
+"axpy.cu", line 505: warning: variable "FF" was declared but never referenced [declared_but_not_referenced]
+    ForceField&   FF     = Vars.device_FF;
+                  ^
+
+"axpy.cu", line 506: warning: variable "Random" was declared but never referenced [declared_but_not_referenced]
+    RandomNumber& Random = Vars.Random;
+                  ^
+
+"axpy.cu", line 555: warning: variable "running_Rosenbluth" was declared but never referenced [declared_but_not_referenced]
+    double running_Rosenbluth = 0.0;
+           ^
+
+"mc_cbcfc.h", line 222: warning: variable "MoveType" was set but never used [set_but_not_used]
+    int    MoveType;
+           ^
+
+Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+
+"mc_swap_moves.h", line 299: warning: variable "CBMCType" was declared but never referenced [declared_but_not_referenced]
+    int CBMCType = CBMC_DELETION; //Deletion//
+        ^
+
+"mc_box.h", line 223: warning: variable "Host_threads" was declared but never referenced [declared_but_not_referenced]
+        size_t Host_threads  = 0; //In this move, there should be NO Framework Atom (Framework (component 0) should be an empty box)//
+               ^
+
+"print_statistics.cuh", line 504: warning: variable "NumberOfAdsorbateComponent" was declared but never referenced [declared_but_not_referenced]
+    size_t NumberOfAdsorbateComponent = SystemComponents.NComponents.x - SystemComponents.NComponents.y;
+           ^
+
+"axpy.cu", line 505: warning: variable "FF" was declared but never referenced [declared_but_not_referenced]
+    ForceField&   FF     = Vars.device_FF;
+                  ^
+
+"axpy.cu", line 506: warning: variable "Random" was declared but never referenced [declared_but_not_referenced]
+    RandomNumber& Random = Vars.Random;
+                  ^
+
+"axpy.cu", line 555: warning: variable "running_Rosenbluth" was declared but never referenced [declared_but_not_referenced]
+    double running_Rosenbluth = 0.0;
+           ^
+
+"read_data.cpp", line 759: warning: variable "ep" was declared but never referenced [declared_but_not_referenced]
+    double ep = 0.0; double sig = 0.0;
+           ^
+
+Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+
+"read_data.cpp", line 759: warning: variable "sig" was declared but never referenced [declared_but_not_referenced]
+    double ep = 0.0; double sig = 0.0;
+                            ^
+
+"read_data.cpp", line 2727: warning: variable "end" was set but never used [set_but_not_used]
+      size_t start = 0; size_t end = 0;
+                               ^
+
+"read_data.cpp", line 830: warning: function "GetTypeForPseudoAtom" was declared but never referenced [declared_but_not_referenced]
+  static inline size_t GetTypeForPseudoAtom(PseudoAtomDefinitions& PseudoAtom, std::string& AtomName)
+                       ^
+
+"read_data.cpp", line 759: warning: variable "ep" was declared but never referenced [declared_but_not_referenced]
+    double ep = 0.0; double sig = 0.0;
+           ^
+
+Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+
+"read_data.cpp", line 759: warning: variable "sig" was declared but never referenced [declared_but_not_referenced]
+    double ep = 0.0; double sig = 0.0;
+                            ^
+
+"read_data.cpp", line 2727: warning: variable "end" was set but never used [set_but_not_used]
+      size_t start = 0; size_t end = 0;
+                               ^
+
+"read_data.cpp", line 830: warning: function "GetTypeForPseudoAtom" was declared but never referenced [declared_but_not_referenced]
+  static inline size_t GetTypeForPseudoAtom(PseudoAtomDefinitions& PseudoAtom, std::string& AtomName)
+                       ^
+
+"Ewald_Energy_Functions.h", line 999: warning: integer conversion resulted in a change of sign [integer_sign_change]
+      size_t AtomA = NAtoms - 2 - std::floor(std::sqrt(-8*InteractionIdx + 4*NAtoms*(NAtoms-1)-7)/2.0 - 0.5);
+                                                       ^
+
+Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+
+"DNN_HostGuest_Energy_Functions.h", line 176: warning: variable "Do_New" was set but never used [set_but_not_used]
+      bool Do_New = true; bool Do_Old = true;
+           ^
+
+"DNN_HostGuest_Energy_Functions.h", line 176: warning: variable "Do_Old" was set but never used [set_but_not_used]
+      bool Do_New = true; bool Do_Old = true;
+                               ^
+
+"DNN_HostGuest_Energy_Functions.h", line 185: warning: missing return statement at end of non-void function "DNN_Prediction_Move" [implicit_return_from_non_void_function]
+  }
+  ^
+
+"VDW_Coulomb.cu", line 1500: warning: integer conversion resulted in a change of sign [integer_sign_change]
+            AtomA = NFrameworkAtoms - 2 - std::floor(std::sqrt(-8*InteractionIdx + 4*NFrameworkAtoms*(NFrameworkAtoms-1)-7)/2.0 - 0.5);
+                                                               ^
+
+"VDW_Coulomb.cu", line 1519: warning: integer conversion resulted in a change of sign [integer_sign_change]
+              AtomA = NExtraFrameworkAtoms - 2 - std::floor(std::sqrt(-8*InteractionIdx + 4*NExtraFrameworkAtoms*(NExtraFrameworkAtoms-1)-7)/2.0 - 0.5);
+                                                                      ^
+
+"VDW_Coulomb.cu", line 1540: warning: integer conversion resulted in a change of sign [integer_sign_change]
+          AtomA = NAdsorbateAtoms - 2 - std::floor(std::sqrt(-8*InteractionIdx + 4*NAdsorbateAtoms*(NAdsorbateAtoms-1)-7)/2.0 - 0.5);
+                                                             ^
+
+"Ewald_Energy_Functions.h", line 999: warning: integer conversion resulted in a change of sign [integer_sign_change]
+      size_t AtomA = NAtoms - 2 - std::floor(std::sqrt(-8*InteractionIdx + 4*NAtoms*(NAtoms-1)-7)/2.0 - 0.5);
+                                                       ^
+
+Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+
+"DNN_HostGuest_Energy_Functions.h", line 176: warning: variable "Do_New" was set but never used [set_but_not_used]
+      bool Do_New = true; bool Do_Old = true;
+           ^
+
+"DNN_HostGuest_Energy_Functions.h", line 176: warning: variable "Do_Old" was set but never used [set_but_not_used]
+      bool Do_New = true; bool Do_Old = true;
+                               ^
+
+"DNN_HostGuest_Energy_Functions.h", line 185: warning: missing return statement at end of non-void function "DNN_Prediction_Move" [implicit_return_from_non_void_function]
+  }
+  ^
+
+"VDW_Coulomb.cu", line 1500: warning: integer conversion resulted in a change of sign [integer_sign_change]
+            AtomA = NFrameworkAtoms - 2 - std::floor(std::sqrt(-8*InteractionIdx + 4*NFrameworkAtoms*(NFrameworkAtoms-1)-7)/2.0 - 0.5);
+                                                               ^
+
+"VDW_Coulomb.cu", line 1519: warning: integer conversion resulted in a change of sign [integer_sign_change]
+              AtomA = NExtraFrameworkAtoms - 2 - std::floor(std::sqrt(-8*InteractionIdx + 4*NExtraFrameworkAtoms*(NExtraFrameworkAtoms-1)-7)/2.0 - 0.5);
+                                                                      ^
+
+"VDW_Coulomb.cu", line 1540: warning: integer conversion resulted in a change of sign [integer_sign_change]
+          AtomA = NAdsorbateAtoms - 2 - std::floor(std::sqrt(-8*InteractionIdx + 4*NAdsorbateAtoms*(NAdsorbateAtoms-1)-7)/2.0 - 0.5);
+                                                             ^
+
+/usr/bin/ld: warning: /tmp/pgcudafat2IecIf1Nkq-p.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
